@@ -2,14 +2,19 @@
 const projetosData = {
   1: {
     title: "Bate Ponto Motorista",
-    description: "Desenvolvi uma plataforma web completa para controle de ponto de motoristas de caminhão, utilizando Vue.js no frontend e Ruby on Rails no backend. O sistema permite que os motoristas registrem suas jornadas de trabalho em tempo real, com geolocalização e validação de horários. Implementei uma API RESTful robusta com Rails, garantindo segurança e performance nas requisições. No frontend, criei uma interface intuitiva e responsiva com Vue.js, proporcionando uma experiência fluida mesmo em dispositivos móveis. O banco de dados MySQL foi estruturado para suportar grandes volumes de registros e consultas complexas relacionadas a jornadas de trabalho. O projeto inclui funcionalidades como relatórios gerenciais, validação de conformidade com a legislação trabalhista e integração com sistemas de GPS.",
+    description: `
+      Trata-se de uma plataforma web e mobile completa permite que os motoristas registrem suas jornadas de trabalho em tempo real, com geolocalização e validação de horários, utilizando Vue.js na parte administrativa(frontend) e Ruby on Rails na parte do backend.\n
+      Atuei nesse projeto no início da minha carreira como desenvolvedor, trabalhando ao lado de profissionais mais experientes que me deram abertura para aprender, errar e evoluir. Tive sempre o suporte necessário para entregar o melhor dentro das minhas capacidades, contribuindo de forma crescente para o produto.`,
     image: "images/bate_ponto_motorista.png",
     technologies: ["Vue.js", "Ruby on Rails", "MySQL"],
     links: {}
   },
   2: {
     title: "Caveo",
-    description: "Desenvolvi uma plataforma financeira completa voltada para contabilidade médica, incluindo aplicativo mobile e aplicação web. A solução permite que médicos gerenciem suas finanças de forma integrada, com funcionalidades como controle de saldo em conta, emissão de notas fiscais, agendamento de pagamento de tributos e gestão de plantões. No backend, implementei uma API RESTful robusta utilizando Node.js e Express, garantindo alta performance e escalabilidade. O banco de dados MySQL foi estruturado para suportar transações financeiras complexas e relatórios contábeis detalhados. No frontend, utilizei JavaScript, jQuery e Bootstrap para criar uma interface responsiva e intuitiva, tanto para web quanto para mobile. O sistema inclui integração com sistemas de pagamento PIX, automação de pagamentos de tributos e geração de relatórios financeiros personalizados para o segmento médico.",
+    description: `A Caveo é uma plataforma financeira voltada para contabilidade médica, incluindo aplicativo mobile e aplicação web. Desenvoldia a partir de um projeto inicialmente focado na emissão de notas fiscais, seu admin foi inicialmente contruido em Handlebars, Jquery e Bootstrap. A API foi construida em Node.js e Express e um banco MySQL.
+    Dentre as funcionalidades, estão Emissão de notas fiscais, Gestão de plantões, Gerenciamento de tributos entre outras.
+    
+    Atuei ativamente para o crescimento do produto implementando integrações essenciais com gateways de pagamento(Stripe), sistemas de emissão de notas, como a Omie (plataforma de ERP), além de desenvolver integrações diretas com prefeituras de diversas cidades para permitir a consulta e o download automático de notas fiscais. Também participei da implementação de integrações com plataformas de envio de mensagens via WhatsApp, como Z-API e Chatwoot, ampliando as possibilidades de comunicação do sistema.`,
     image: "images/caveo.png",
     modalImage: "images/caveo2.jpeg",
     technologies: ["JavaScript", "Node.js", "MySQL"],
@@ -21,7 +26,10 @@ const projetosData = {
   },
   3: {
     title: "Vordesk",
-    description: "Desenvolvi uma plataforma completa de centralização de canais de atendimento ao cliente, permitindo que empresas gerenciem múltiplos canais de comunicação (WhatsApp, Instagram, Email, entre outros) em um único lugar. A solução elimina a necessidade de acessar cada canal separadamente, otimizando o tempo de resposta e melhorando a experiência do atendimento. No frontend, implementei uma interface moderna e intuitiva utilizando Vue.js, com componentes reutilizáveis e uma arquitetura escalável. O backend foi desenvolvido com Ruby on Rails, criando uma API RESTful robusta que integra com as APIs de diferentes plataformas de comunicação. O banco de dados MySQL foi estruturado para suportar grandes volumes de mensagens e conversas, com otimizações para consultas rápidas e eficientes. O sistema inclui funcionalidades como histórico de conversas, tags para organização, transferência de atendimento entre agentes, métricas de desempenho e notificações em tempo real.",
+    description: `A Vordesk tem  como objetivo unificar diferentes canais de atendimento ao cliente — como WhatsApp, Instagram, Email e outros — em um único ambiente.Sua interface administrativa foi construída utilizando Vue.js, com componentes reutilizáveis e uma arquitetura escalável. O backend foi desenvolvido em Ruby on Rails, estruturado como uma API RESTful integrada a múltiplas plataformas de comunicação, utilizando MySQL para armazenar e organizar grandes volumes de conversas.
+      Entre as funcionalidades, estão histórico completo de mensagens, organização por tags, distribuição e transferência de atendimentos, integração com múltiplos agentes, métricas de desempenho e notificações em tempo real.
+      
+      Atuei ativamente desenvolvendo integrações essenciais com APIs de canais externos, como WhatsApp e Instagram para que mensagens fossem recebidas e tratadas dentro da plataforma de forma unificada.`,
     image: "images/vordesk.png",
     modalImage: "images/vordesk2.png",
     technologies: ["Vue.js", "Ruby on Rails", "MySQL"],
@@ -33,7 +41,10 @@ const projetosData = {
   },
   4: {
     title: "Medban",
-    description: "Desenvolvi uma plataforma web completa para gestão de cirurgias em clínicas médicas, permitindo que equipes médicas gerenciem todo o processo cirúrgico dos pacientes de forma organizada e eficiente. No frontend, implementei uma interface moderna e intuitiva utilizando React, com componentes reutilizáveis e uma experiência de usuário otimizada para profissionais da saúde. O backend foi desenvolvido com Python, criando uma API robusta que gerencia todo o fluxo de dados relacionados a cirurgias, pacientes, médicos e agendamentos. O banco de dados MySQL foi estruturado para suportar informações complexas do setor médico, incluindo histórico de cirurgias, prontuários, materiais cirúrgicos e recursos hospitalares. O sistema inclui funcionalidades como agendamento de cirurgias, gestão de salas cirúrgicas, controle de materiais e equipamentos, histórico completo de procedimentos, relatórios médicos e integração com sistemas hospitalares.",
+    description: `A plataforma é uma solução web completa para gestão de cirurgias em clínicas médicas, criada para centralizar e organizar todo o processo cirúrgico de pacientes. Desenvolvida inicialmente com foco no agendamento e controle de cirúrgias, sua interface administrativa foi construída utilizando React. O backend foi implementado em Python, estruturado como uma API robusta responsável por gerenciar dados de cirurgias, pacientes, equipes médicas e recursos hospitalares, utilizando MySQL para armazenar informações complexas do setor.
+      Entre as funcionalidades, estão gestao completa da jornada cirúrgica, desde de o agendamento até o pós cirurgico, gestão de materiais, histórico completo de procedimentos, prontuários, controle de equipamentos e geração de relatórios médicos.
+
+      Atuei diretamente desde o início do projeto, focando na estruturação do banco de dados, definição dos fluxos cirúrgicos e construção das funcionalidades essenciais para atender às necessidades reais das clínicas. Trabalhei lado a lado com o cliente para entender demandas, propor soluções e tomar decisões que ajudaram a moldar o produto, garantindo uma base sólida, escalável e alinhada ao dia a dia dos profissionais da saúde.`,
     image: "images/medban.png",
     technologies: ["React", "Python", "MySQL"],
     links: {
@@ -150,7 +161,11 @@ function openModal(projectData) {
   if (modalImg) modalImg.src = imageToUse;
   if (modalImg) modalImg.alt = projectData.title;
   if (modalTitle) modalTitle.textContent = projectData.title;
-  if (modalDescription) modalDescription.textContent = projectData.description;
+  // Convert \n to <br> for line breaks in description
+  if (modalDescription) {
+    const descriptionWithBreaks = projectData.description.replace(/\n/g, '<br>');
+    modalDescription.innerHTML = descriptionWithBreaks;
+  }
 
   // Add tags in modal
   if (modalTags && projectData.technologies) {
